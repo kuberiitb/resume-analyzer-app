@@ -13,8 +13,8 @@ try:
 except:
     pass
 
-import boto3
-from botocore.exceptions import ClientError
+# import boto3
+# from botocore.exceptions import ClientError
 
 # Set up the DynamoDB client using environment variables
 # aws_access_key_id = os.environ.get('AWS_ACCESS_KEY_ID')
